@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#101512">
+    <meta name="description" content="Gözde — Bilgisayar Programcılığı öğrencisi, yazılım ve dijital üretim meraklısı." data-tr="Gözde — Bilgisayar Programcılığı öğrencisi, yazılım ve dijital üretim meraklısı." data-en="Gözde — Computer Programming student, software and digital creation enthusiast.">
+    <title data-tr="İletişim — Gözde" data-en="Contact — Gözde">İletişim — Gözde</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+    <a class="brand" href="index.html">gözde<span>.</span></a>
+    <div class="status" data-tr="ÖĞRENİYOR · DENİYOR · ÜRETİYOR" data-en="LEARNING · EXPERIMENTING · BUILDING">ÖĞRENİYOR · DENİYOR · ÜRETİYOR</div>
+    <button class="menu-toggle" aria-expanded="false" data-tr="MENÜ" data-en="MENU">MENÜ</button>
+    <nav class="nav"><a class="" href="index.html" data-tr="ANASAYFA" data-en="HOME">ANASAYFA</a><a class="" href="about.html" data-tr="HAKKIMDA" data-en="ABOUT">HAKKIMDA</a><a class="" href="projects.html" data-tr="PROJELER" data-en="PROJECTS">PROJELER</a><a class="" href="gallery.html" data-tr="GALERI" data-en="GALLERY">GALERI</a><a class="" href="blog.html" data-tr="BLOG" data-en="BLOG">BLOG</a><a class="active" href="contact.html" data-tr="İLETIŞIM" data-en="CONTACT">İLETIŞIM</a></nav>
+    <button class="lang-switch" id="langSwitch" type="button" aria-label="Dil değiştir / Switch language" data-lang="tr" title="Türkçe / English">
+      <span class="lang-pill" aria-hidden="true"></span>
+      <span class="lang-opt lang-tr active" data-lang="tr">TR</span>
+      <span class="lang-opt lang-en" data-lang="en">EN</span>
+      <span class="lang-shine" aria-hidden="true"></span>
+    </button>
+  </header>
+    <main class="wrap">
+        <section class="inner-hero">
+            <div class="eyebrow" data-tr="05 — İLETİŞİM" data-en="05 — CONTACT">05 — İLETİŞİM</div>
+            <h1>
+              <span data-tr="MERHABA DEMEK" data-en="SAYING HELLO">MERHABA DEMEK</span><br>
+              <em data-tr="YETERLİ." data-en="IS ENOUGH.">YETERLİ.</em>
+            </h1>
+            <p data-tr="Bir proje, fikir, öneri veya sadece sohbet için iletişim kurabiliriz." data-en="We can connect for a project, an idea, feedback, or simply a chat.">Bir proje, fikir, öneri veya sadece sohbet için iletişim kurabiliriz.</p>
+        </section>
+        <section class="section contact-grid">
+            <div><span class="eyebrow" data-tr="İLETİŞİM DETAYLARI" data-en="CONTACT DETAILS">İLETİŞİM DETAYLARI</span>
+                <h2 class="big-heading" data-tr="BİR FİKİR<br>PAYLAŞALIM." data-en="LET'S SHARE<br>AN IDEA.">BİR FİKİR<br>PAYLAŞALIM.</h2>
+                <div class="contact-card"><span data-tr="ŞEHİR" data-en="CITY">ŞEHİR</span><b data-tr="Antalya, Türkiye" data-en="Antalya, Türkiye">Antalya, Türkiye</b></div>
+                <div class="contact-card"><span data-tr="E-POSTA" data-en="EMAIL">E-POSTA</span><b>gozdegunduz66@gmail.com</b></div>
+                <div class="contact-card"><span data-tr="SOSYAL MEDYA" data-en="SOCIAL / PHONE">SOSYAL MEDYA</span><b>05525670536</b></div>
+            </div>
+            <form class="form" id="contactForm">
+                <label><span data-tr="İSİM" data-en="NAME">İSİM</span><input name="name" placeholder="Adın" data-tr-placeholder="Adın" data-en-placeholder="Your name" required></label>
+                <label><span data-tr="E-POSTA" data-en="EMAIL">E-POSTA</span><input name="email" type="email" placeholder="ornek@mail.com" data-tr-placeholder="ornek@mail.com" data-en-placeholder="name@example.com" required></label>
+                <label><span data-tr="KONU" data-en="SUBJECT">KONU</span><input name="subject" placeholder="Mesaj konusu" data-tr-placeholder="Mesaj konusu" data-en-placeholder="Message subject"></label>
+                <label><span data-tr="MESAJ" data-en="MESSAGE">MESAJ</span><textarea name="message" rows="5" placeholder="Mesajını yaz..." data-tr-placeholder="Mesajını yaz..." data-en-placeholder="Write your message..." required></textarea></label>
+                <button type="submit"><span data-tr="E-POSTA TASLAĞI OLUŞTUR" data-en="CREATE EMAIL DRAFT">E-POSTA TASLAĞI OLUŞTUR</span> ↗</button>
+                <p class="eyebrow"></p>
+            </form>
+            <div class="contact-map"><iframe title="Antalya haritası" data-tr-title="Antalya haritası" data-en-title="Antalya map" loading="lazy"
+                    src="https://maps.google.com/maps?q=Antalya%2C%20T%C3%BCrkiye&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-caption" data-tr="ANTALYA · TÜRKİYE — GOOGLE MAPS" data-en="ANTALYA · TÜRKIYE — GOOGLE MAPS">ANTALYA · TÜRKİYE — GOOGLE MAPS</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer wrap">
+    <span>GÖZDE © <span id="year"></span></span>
+    <span data-tr="ANTALYA / TÜRKİYE" data-en="ANTALYA / TÜRKIYE">ANTALYA / TÜRKİYE</span>
+    <span data-tr="MERAKLA, ADIM ADIM." data-en="STEP BY STEP, WITH CURIOSITY.">MERAKLA, ADIM ADIM.</span>
+  </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
